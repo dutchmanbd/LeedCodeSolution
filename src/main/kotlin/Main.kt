@@ -1,8 +1,8 @@
-import palindrome.PalindromeNumber
-
+import convert.RomanToInt
 fun main(args: Array<String>) {
 
-    println(PalindromeNumber().isPalindrome(121))
-    println(PalindromeNumber().isPalindrome(-121))
-    println(PalindromeNumber().isPalindrome(10))
+    println(RomanToInt().romanToInt("III"))
+    println(RomanToInt().romanToInt("LVIII"))
+    println(RomanToInt().romanToInt("MCMXCIVMIV"))
+
 }
