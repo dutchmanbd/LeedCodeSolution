@@ -1,8 +1,8 @@
-import convert.RomanToInt
+import anagram.ValidAnagram
 fun main(args: Array<String>) {
 
-    println(RomanToInt().romanToInt("III"))
-    println(RomanToInt().romanToInt("LVIII"))
-    println(RomanToInt().romanToInt("MCMXCIVMIV"))
+    println(ValidAnagram().isAnagram("anagram", "nagaram"))
+    println(ValidAnagram().isAnagram("rat", "car"))
+
 
 }
