@@ -1,5 +1,7 @@
 package palindrome
 
+import common.ListNode
+
 class PalindromeLinkedList {
     fun isPalindrome(head: ListNode?): Boolean {
         if (head == null) return false
@@ -25,6 +27,3 @@ class PalindromeLinkedList {
 }
 
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
