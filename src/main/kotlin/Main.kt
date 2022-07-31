@@ -1,15 +1,17 @@
-
 import common.LongestCommonPrefix
-
+import common.RemoveDuplicatesFromSortedArray
 
 
 fun main(args: Array<String>) {
 
 
+    var intArray = intArrayOf(
+        1,1,2
+    )
     println(
-        LongestCommonPrefix().longestCommonPrefix(
-            arrayOf("dog", "racecar", "car")
-        )
+        "size: ${RemoveDuplicatesFromSortedArray().removeDuplicates(
+            intArray
+        )}, array:${intArray.joinToString()}"
     )
 
 }
