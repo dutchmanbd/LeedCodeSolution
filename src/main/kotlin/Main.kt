@@ -1,17 +1,35 @@
-import common.LongestCommonPrefix
-import common.RemoveDuplicatesFromSortedArray
+
+import common.LongestSubstringWithoutRepeatingCharacters
 
 
 fun main(args: Array<String>) {
-
-
-    var intArray = intArrayOf(
-        1,1,2
-    )
+//    println(
+//        LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(
+//            " "
+//        )
+//    )
     println(
-        "size: ${RemoveDuplicatesFromSortedArray().removeDuplicates(
-            intArray
-        )}, array:${intArray.joinToString()}"
+        LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(
+            "pwwkew"
+        )
     )
-
+//
+//
+//    println(
+//        LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(
+//            "bbbbb"
+//        )
+//    )
+    println(
+        LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(
+            "dweavrfstyd"
+        )
+    )
+    println(LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(" _+ee"))
+//
+    println(
+        LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(
+            "dvdf"
+        )
+    )
 }
