@@ -1,10 +1,10 @@
-import common.AddBinary
-import common.SqrtX
+
+import fibo.ClimbStairs
 
 
 fun main(args: Array<String>) {
 
     println(
-        SqrtX().mySqrt(8)
+        ClimbStairs().climbStairs(45)
     )
 }
